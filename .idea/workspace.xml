@@ -52,7 +52,23 @@
     "settings.editor.selected.configurable": "preferences.pluginManager"
   }
 }]]></component>
-  <component name="RunManager" selected="Go Build.go build main.go">
+  <component name="RunManager" selected="Go Build.go build deck.go main.go">
+    <configuration name="go build deck.go main.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+      <module name="aprendendoGo" />
+      <working_directory value="$PROJECT_DIR$" />
+      <kind value="FILE" />
+      <directory value="$PROJECT_DIR$" />
+      <filePath value="$PROJECT_DIR$/Cards/deck.go|$PROJECT_DIR$/Cards/main.go" />
+      <method v="2" />
+    </configuration>
+    <configuration name="go build deck.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+      <module name="aprendendoGo" />
+      <working_directory value="$PROJECT_DIR$" />
+      <kind value="FILE" />
+      <directory value="$PROJECT_DIR$" />
+      <filePath value="$PROJECT_DIR$/Cards/deck.go" />
+      <method v="2" />
+    </configuration>
     <configuration name="go build helloworld.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="aprendendoGo" />
       <working_directory value="$PROJECT_DIR$" />
@@ -62,7 +78,7 @@
       <filePath value="$PROJECT_DIR$/helloworld.go" />
       <method v="2" />
     </configuration>
-    <configuration name="go build main.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+    <configuration name="go build main.go" type="GoApplicationRunConfiguration" factoryName="Go Application" nameIsGenerated="true">
       <module name="aprendendoGo" />
       <working_directory value="$PROJECT_DIR$" />
       <kind value="FILE" />
@@ -72,7 +88,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Go Build.go build main.go" />
+        <item itemvalue="Go Build.go build deck.go main.go" />
+        <item itemvalue="Go Build.go build deck.go" />
         <item itemvalue="Go Build.go build helloworld.go" />
       </list>
     </recent_temporary>

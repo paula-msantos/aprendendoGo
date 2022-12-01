@@ -3,8 +3,8 @@ package main
 import "fmt"
 
 func main() {
-	cards := []string{"Ace of Diamonds", newCard()} //criando um Array
-	cards = append(cards, "Six of Spades")          //incluindo um elemento no array
+	cards := deck{"Ace of Diamonds", newCard()} //criando um Array
+	cards = append(cards, "Six of Spades")      //incluindo um elemento no array
 
 	for i, card := range cards { // para iterar sobre um array fechado
 		fmt.Println(i, card)
