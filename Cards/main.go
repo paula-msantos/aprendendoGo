@@ -3,7 +3,13 @@ package main
 import "fmt"
 
 func main() {
-	// var card string = "Ace of Spades"
-	card := "Ace of Spades" //para inicializar uma nova variavel, nao pode ser usado quando passamos outro valor.
-	fmt.Println(card)
+	cards := []string{"Ace of Diamonds", newCard()} //criando um Array
+	cards = append(cards, "Six of Spades")          //incluindo um elemento no array
+
+	fmt.Println(cards)
+
+}
+
+func newCard() string {
+	return "Five of Diamonds"
 }
