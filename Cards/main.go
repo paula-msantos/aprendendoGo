@@ -6,8 +6,9 @@ func main() {
 	cards := []string{"Ace of Diamonds", newCard()} //criando um Array
 	cards = append(cards, "Six of Spades")          //incluindo um elemento no array
 
-	fmt.Println(cards)
-
+	for i, card := range cards { // para iterar sobre um array fechado
+		fmt.Println(i, card)
+	}
 }
 
 func newCard() string {
